@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display-study</title>
+    <style>
+      .stlye-inline {
+        background-color: bisque;
+        width: 200px;
+        height: 100px;
+      }
+      .inlineDivBox {
+        border: 1px solid;
+        display: inline-block;
+      }
+      .blcokDivBox {
+        border: 1px solid;
+        display: block;
+      }
+      .blcokDivBox > div {
+        background-color: blue;
+        width: 200px;
+        height: 100px;
+        margin: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inlineDivBox">
+      <a class="stlye-inline">1번영역</a>
+      <span class="stlye-inline">2번영역</span>
+      <em class="stlye-inline">3번영역-----</em>
+    </div>
+
+    <div class="blcokDivBox">
+      <h1>H1</h1>
+      <div>div</div>
+      <p>p</p>
+    </div>
+  </body>
+</html>
